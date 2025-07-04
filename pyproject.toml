@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "password-manager-end"
+version = "0.1.0"
+description = "A simple GUI password manager using Tkinter and pyperclip."
+authors = ["Jacques Botha <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pyperclip = "^1.8.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
